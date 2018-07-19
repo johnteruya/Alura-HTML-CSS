@@ -1,79 +1,152 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>João da Silva - Desenvolvedor Web</title>
-    <link rel="shortcut icon" href="imagens/favicon.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alurinha | Cursos online</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
-    <header class="titulo-principal">
-        <img class="foto-home" src="imagens/eu.jpg" alt="Foto de João da Silva">
-        <h1>João da Silva</h1>
-        <p class="subtitulo-principal">Desenvolvedor web</p>
-        <ul class="palavras-home">
-            <li class="palavra-home eficiencia">Eficiência</li>
-            <li class="palavra-home boas-praticas">Boas práticas</li>
-            <li class="palavra-home codigo-limpo">Código limpo</li>
-            <li class="palavra-home css3">CSS3</li>
-            <li class="palavra-home html5">HTML5</li>
-            <li class="palavra-home javascript">JavaScript</li>
-            <li class="palavra-home acessibilidade">Acessibilidade</li>
-            <li class="palavra-home responsivo">Responsivo</li>
-            <li class="palavra-home otimizacoes">Otimizações</li>
-            <li class="palavra-home agilidade">Agilidade</li>
-            <li class="palavra-home design">Design</li>
-        </ul>
-        <a class="banner-twitter" href="http://twitter.com/joaodasilva">Siga-me no Twitter</a>
-    </header>
-    <main>
-        <section class="secao-inicio saudacao">
-            <p class="saudacao"><span class="saudacao-inicio">Olá,</span> meu nome é <strong>João da Silva</strong> <span class="saudacao-ultima-linha">e eu construo <em>sites maravilhosos</em></span></p>
-            <a class="botao-index" href="bio.html">Conheça mais um pouco sobre mim</a>
-        </section>
-        <section class="secao-inicio trabalhos">
-            <h2>Trabalhos</h2>
-            <ul>
-                <li><img src="imagens/bmw.png" alt="Site da BMW"></li>
-                <li><img src="imagens/ibm.png" alt="Site da IBM"></li>
-                <li><img src="imagens/uol.png" alt="Site da UOL"></li>
-            </ul>
-            <a class="botao-index" href="portfolio.html">Veja mais</a>
-        </section>
-        <section class="secao-inicio blog">
-            <h2>Blog</h2>
-            <small>Últimos posts</small>
-            <ol>
-                <li class="mais-recente">
-                    <a href="blog.html">O essencial de design responsivo</a>
-                    <p class="inicio-post">
-                        Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?
-                    </p>
-                </li>
-                <li>
-                    <a href="blog.html">Por que fazer páginas acessíveis?</a>
-                    <p class="inicio-post">
-                        Tem se falado cada vez sobre acessibilidade na web. Há diversas técnicas e diretivas a serem seguidas, inclusive da própria W3C. Mas vale a pena investir nisso?
-                    </p>
-                </li>
-                <li>
-                    <a href="blog.html">JavaScript não obstrusivo</a>
-                    <p class="inicio-post">
-                        JavaScript é uma linguagem essencial hoje em dia para criar páginas ricas, interativas e dinâmicas. Porém, há alguns cuidados que devem ser tomados ao colocarmos código JavaScript em nossas páginas.
-                    </p>
-                </li>
-            </ol>
-            <a class="botao-index" href="blog.html">Veja mais</a>
-        </section>
-    </main>
-    <footer>
-        <h2>Vamos conversar?</h2>
-        <p>Você pode entrar em contato comigo <a href="contato.html">por e-mail</a> ou pelo telefone <a href="tel:+551234567890">(12) 3456-7890</a></p>
-    </footer>
+
+	<header class="cabecalhoPrincipal">
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+				<a href="#">Alurinha</a>
+			</h1>
+
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="#">Home</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Cursos</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Sobre nós</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Contato</a>
+				<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-app" href="#">Nosso APP</a>
+			</nav>
+		</div>
+
+	</header>
+
+	<main class="conteudoPrincipal">
+		<div class="container">
+			<h2 class="subtitulo">Nossos cursos</h2>
+
+			<nav>
+				<ul class="conteudoPrincipal-cursos">
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Java</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">PHP</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Ruby on Rails</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">.NET</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Pascal</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Flexbox</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Desenvolvimento Web</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Java Web</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Javascript</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">AngularJS</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">TDD com C</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Redes de computadores</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">MySQL</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">MariaDB</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Postegres</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
+					<li class="conteudoPrincipal-cursos-link"><a href="#">Lógica de programação</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<section class="videoSobre">
+			<div class="container">
+				<iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
+				
+				<div class="videoSobre-sobre">
+					<h2 class="videoSobre-sobre-title">Vantagens do Alurinha</h2>
+					<ul class="videoSobre-sobre-list">
+						<li class="videoSobre-sobre-item">Estude onde quiser</li>
+						<li class="videoSobre-sobre-item">Novos cursos todos os meses</li>
+						<li class="videoSobre-sobre-item">Cursos compatíveis com o mercado</li>
+					</ul>
+					<button class="videoSobre-button">Cadastre-se já</button>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="rodapePrincipal">
+		<div class="container">
+
+			<section class="rodapePrincipal-navMap">
+				<h3 class="subtitulo">Mapa de cursos</h3>
+				<nav class="rodapePrincipal-navMap-list">
+
+					<h4 class="navmap-list-title navmap-list-title-backend">Linguagens Backend</h4>
+					<a class="rodapePrincipal-navMap-link" href="#">Java</a>
+					<a class="rodapePrincipal-navMap-link" href="#">PHP</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Pascal</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Scala</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Python</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Java Web</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Assembly</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Lógica de programação</a>
+
+					<h4 class="navmap-list-title navmap-list-title-frontend">Linguagens Frontend</h4>
+					<a class="rodapePrincipal-navMap-link" href="#">Flexbox</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Desenvolvimento Web</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Javascript</a>
+					<a class="rodapePrincipal-navMap-link" href="#">AngularJS</a>
+					<a class="rodapePrincipal-navMap-link" href="#">ReactJS</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Polymer</a>
+					
+					<h4 class="navmap-list-title navmap-list-title-framework">Frameworks</h4>
+					<a class="rodapePrincipal-navMap-link" href="#">Ruby on Rails</a>
+					<a class="rodapePrincipal-navMap-link" href="#">VRaptor</a>
+					<a class="rodapePrincipal-navMap-link" href="#">SpringMVC</a>
+					<a class="rodapePrincipal-navMap-link" href="#">NodeJS</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Django</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Bootstrap3</a>
+
+					<h4 class="navmap-list-title navmap-list-title-bancoDeDados">Banco de dados</h4>
+					<a class="rodapePrincipal-navMap-link" href="#">MySQL</a>
+					<a class="rodapePrincipal-navMap-link" href="#">MariaDB</a>
+					<a class="rodapePrincipal-navMap-link" href="#">Postegres</a>
+
+				</nav>
+			</section>
+
+		</div>
+
+		<section class="rodapePrincipal-patrocinadores">
+			<div class="container">
+				<ul class="rodapePrincipal-patrocinadores-list">
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
+							<img src="https://www.alura.com.br/assets/img/alura-logo.1473714412.svg" alt="Logo da Alura">
+						</a>
+					</li>
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
+							<img src="https://www.alura.com.br/assets/img/footer/caelum-logo.1473714412.svg" alt="Logo da Caelum">
+						</a>
+					</li>
+					<li>
+						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo" href="#">
+							<img src="https://cdn.shopify.com/s/files/1/0155/7645/t/223/assets/c-d-c-logo.svg?7937016140355620661" alt="Logo da Casa do Código">
+						</a>
+					</li>
+				</ul>
+				<form class="rodapePrincipal-contatoForm" action="#">
+					<fieldset>
+						<legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
+						<div class="rodapePrincipal-contatoForm-fieldset"> 
+							<input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
+							<button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</footer>
+
 </body>
 </html>
